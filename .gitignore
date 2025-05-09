@@ -1,0 +1,49 @@
+﻿# Build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+.vs/
+*.vspscc
+*.user
+*.userosscache
+*.suo
+
+# Runtime and OS
+*.log
+*.DS_Store
+*.vs/
+Thumbs.db
+
+# Dotnet secrets and settings
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Twilio or bot config
+twilio_settings.json
+.env
+
+# EF Core tools
+Migrations/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Publish output
+publish/
+wwwroot/
+
+# Spreadsheets
+Spreadsheets/*
+
+# Others
+*.db
+*.bak
+*.sqlite
