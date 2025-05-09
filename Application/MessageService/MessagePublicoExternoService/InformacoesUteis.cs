@@ -9,8 +9,7 @@ namespace Chatbot.Application.MessageService.MessagePublicoExternoService
             return userState.CurrentOption switch
             {
                 "1" =>
-                    "Nossas oportunidades são divulgadas no site do CEUB, pela plataforma da Empregare.\n" +
-                    "👉 Acesse e cadastre seu currículo: https://ceub.empregare.com/pt-br\n",
+                    "Nossas oportunidades são divulgadas no...",
                 _ =>
                     "Opção inválida. Digite 0 para voltar ao menu."
             };

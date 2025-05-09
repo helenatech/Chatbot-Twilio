@@ -37,7 +37,7 @@ namespace Chatbot.Application.Services
         {
             var options = new StringBuilder();
 
-            options.AppendLine($"Olá, bem-vindo(a) ao atendimento do RH do CEUB.");
+            options.AppendLine($"Olá, bem-vindo(a) ao atendimento do RH.");
             options.AppendLine("1. Processo Seletivo");
 
             return await Task.FromResult(options.ToString());

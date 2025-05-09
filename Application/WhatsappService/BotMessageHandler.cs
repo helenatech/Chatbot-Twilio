@@ -72,7 +72,6 @@ namespace Chatbot.Application.WhatsappService
                 try
                 {
                     var client = await _authenticationService.AuthenticateAsync(userState.ClientId, input);
-                    Console.WriteLine("[DEBUG] chegou aq?");
                     userState.IsAuthenticated = true;
                     userState.Profile = client.Profile?.Name?.Trim().ToLowerInvariant();
                     Console.WriteLine($"[DEBUG] {userState.Profile} checando o perfil aq");
